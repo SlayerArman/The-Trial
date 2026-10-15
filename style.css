@@ -115,10 +115,20 @@ nav a:hover {
     background-color: #242424;
     padding: 40px;
     margin: 20px;
-    width: 250px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px #242424;
+    box-shadow: 0 4px 8px #0b2901;
+    text-shadow: 4px 4px 8px black;
+
+    width: 260px;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #242424;
 }
+
 
 .game-card:hover {
     transform: scale(1.05) rotate(-5deg);
