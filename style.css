@@ -52,6 +52,10 @@ nav {
     text-shadow: 2px 2px 8px #a3ff12;
 }
 
+.main-title:hover {
+    
+}
+
 nav a {
     color: white;
     text-decoration: none;
@@ -116,7 +120,7 @@ nav a:hover {
     padding: 40px;
     margin: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px #0b2901;
+    box-shadow: 0 4px 8px rgb(18, 18, 18);
     text-shadow: 4px 4px 8px black;
 
     width: 260px;
@@ -127,6 +131,9 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #242424;
+
+    transform: scale(1.00) rotate(0deg);
+    transition: transform 0.3s ease;
 }
 
 
@@ -135,21 +142,29 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 
-.game-card button {
+.game-card .play-now {
+    display: inline-block;
     background-color: #a3ff12;
     color: black;
+    text-decoration: none;
+    text-shadow: none;
     border: none;
     padding: 10px 20px;
     border-radius: 7px;
     cursor: pointer;
     font-weight: bolder;
     box-shadow: 1px 2px 3px #a3ff12;
+    transition: transform 0.1s ease;
 }
 
-.game-card button:hover {
+.game-card .play-now:hover {
     transform: scale(1.05);
     transition: transform 0.1s ease;
+}
 
+.game-card .play-now:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
 }
 
 footer {
